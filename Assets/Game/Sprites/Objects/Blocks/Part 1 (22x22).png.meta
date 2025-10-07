@@ -1,23 +1,23 @@
 fileFormatVersion: 2
-guid: a93caedcaa299f14e978454757f38077
+guid: 09f4b8f50dab5b34495ea64fc80b3047
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png
+  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5273281925071742904
-    second: HitSide (22x22)_0
+      213: 6769692827079125451
+    second: Part 1 (22x22)_0
   - first:
-      213: -991449457031105569
-    second: HitSide (22x22)_1
+      213: 6851959776083884160
+    second: Part 1 (22x22)_1
   - first:
-      213: 873812864866779284
-    second: HitSide (22x22)_2
+      213: 7713393198726954842
+    second: Part 1 (22x22)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,11 +109,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HitSide (22x22)_0
+      name: Part 1 (22x22)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 247fcecaf636c3d4f9de774ccd56ae41
-      internalID: 5273281925071742904
+      spriteID: 8ce795907c76b1e4298b647368f6202d
+      internalID: 6769692827079125451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HitSide (22x22)_1
+      name: Part 1 (22x22)_1
       rect:
         serializedVersion: 2
         x: 22
@@ -150,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 940db5a19bb50294db79aacda7d68221
-      internalID: -991449457031105569
+      spriteID: e9c2d188e3404904f8aba6ea042f52f1
+      internalID: 6851959776083884160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HitSide (22x22)_2
+      name: Part 1 (22x22)_2
       rect:
         serializedVersion: 2
         x: 44
@@ -172,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 224e1e0181b4b3e4cb78f6a748d87173
-      internalID: 873812864866779284
+      spriteID: c6b9e99ab0d47cb42afc16d3634ebfc1
+      internalID: 7713393198726954842
       vertices: []
       indices: 
       edges: []
@@ -192,9 +205,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HitSide (22x22)_0: 5273281925071742904
-      HitSide (22x22)_1: -991449457031105569
-      HitSide (22x22)_2: 873812864866779284
+      Part 1 (22x22)_0: 6769692827079125451
+      Part 1 (22x22)_1: 6851959776083884160
+      Part 1 (22x22)_2: 7713393198726954842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

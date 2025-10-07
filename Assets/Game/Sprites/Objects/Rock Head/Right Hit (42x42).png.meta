@@ -1,26 +1,26 @@
 fileFormatVersion: 2
-guid: bb8f35504d0d42343b3cdb04faaa9d15
+guid: 337dc14b4c251b345bc534a6e8df01db
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png
+  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1622322107330605865
-    second: Left Hit (42x42)_0
+      213: -5777153474034035348
+    second: Right Hit (42x42)_0
   - first:
-      213: -4448182012383196264
-    second: Left Hit (42x42)_1
+      213: 2131593325696180439
+    second: Right Hit (42x42)_1
   - first:
-      213: 3017925185602581589
-    second: Left Hit (42x42)_2
+      213: -143055266519111553
+    second: Right Hit (42x42)_2
   - first:
-      213: 4165727229729027890
-    second: Left Hit (42x42)_3
+      213: 5146612676036680158
+    second: Right Hit (42x42)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,11 +112,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Left Hit (42x42)_0
+      name: Right Hit (42x42)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bd0bb000cde8e341a0d5f85270ad05c
-      internalID: 1622322107330605865
+      spriteID: d3433dc8871453341a7e1c96f00d9dce
+      internalID: -5777153474034035348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left Hit (42x42)_1
+      name: Right Hit (42x42)_1
       rect:
         serializedVersion: 2
         x: 42
@@ -153,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13260c6f980312849a0b9320229872dd
-      internalID: -4448182012383196264
+      spriteID: a3013c8019e7831469f7c4463f90fceb
+      internalID: 2131593325696180439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left Hit (42x42)_2
+      name: Right Hit (42x42)_2
       rect:
         serializedVersion: 2
         x: 84
@@ -175,14 +188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a5cec343d4d1384bb9cbf55e4e72ee1
-      internalID: 3017925185602581589
+      spriteID: 104695450395d5b4882905ddb027947a
+      internalID: -143055266519111553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left Hit (42x42)_3
+      name: Right Hit (42x42)_3
       rect:
         serializedVersion: 2
         x: 126
@@ -197,8 +210,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8281d18cd5d76142b5de471d85c231d
-      internalID: 4165727229729027890
+      spriteID: 9050ed9393e988243be46b6103b949b7
+      internalID: 5146612676036680158
       vertices: []
       indices: 
       edges: []
@@ -217,10 +230,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Left Hit (42x42)_0: 1622322107330605865
-      Left Hit (42x42)_1: -4448182012383196264
-      Left Hit (42x42)_2: 3017925185602581589
-      Left Hit (42x42)_3: 4165727229729027890
+      Right Hit (42x42)_0: -5777153474034035348
+      Right Hit (42x42)_1: 2131593325696180439
+      Right Hit (42x42)_2: -143055266519111553
+      Right Hit (42x42)_3: 5146612676036680158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

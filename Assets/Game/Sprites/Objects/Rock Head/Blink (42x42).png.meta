@@ -1,26 +1,26 @@
 fileFormatVersion: 2
-guid: 337dc14b4c251b345bc534a6e8df01db
+guid: e3e6b3d6c57dc7b488e7d1e8be902988
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png
+  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Blink (42x42).png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5777153474034035348
-    second: Right Hit (42x42)_0
+      213: 4965478120403269316
+    second: Blink (42x42)_0
   - first:
-      213: 2131593325696180439
-    second: Right Hit (42x42)_1
+      213: 7853364175085887869
+    second: Blink (42x42)_1
   - first:
-      213: -143055266519111553
-    second: Right Hit (42x42)_2
+      213: 3654695632555541323
+    second: Blink (42x42)_2
   - first:
-      213: 5146612676036680158
-    second: Right Hit (42x42)_3
+      213: -7771193783775295362
+    second: Blink (42x42)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,11 +112,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Right Hit (42x42)_0
+      name: Blink (42x42)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3433dc8871453341a7e1c96f00d9dce
-      internalID: -5777153474034035348
+      spriteID: bdfe87cc1cb1eea40a69a31db1419b78
+      internalID: 4965478120403269316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Hit (42x42)_1
+      name: Blink (42x42)_1
       rect:
         serializedVersion: 2
         x: 42
@@ -153,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3013c8019e7831469f7c4463f90fceb
-      internalID: 2131593325696180439
+      spriteID: 1d6dc77d256a70747b63b07a09746d8a
+      internalID: 7853364175085887869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Hit (42x42)_2
+      name: Blink (42x42)_2
       rect:
         serializedVersion: 2
         x: 84
@@ -175,14 +188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104695450395d5b4882905ddb027947a
-      internalID: -143055266519111553
+      spriteID: 7645ad00e03ad894995e3d980b476fae
+      internalID: 3654695632555541323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Hit (42x42)_3
+      name: Blink (42x42)_3
       rect:
         serializedVersion: 2
         x: 126
@@ -197,8 +210,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9050ed9393e988243be46b6103b949b7
-      internalID: 5146612676036680158
+      spriteID: 11db1cff4606f72429aa6d21aa895dbb
+      internalID: -7771193783775295362
       vertices: []
       indices: 
       edges: []
@@ -217,10 +230,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Right Hit (42x42)_0: -5777153474034035348
-      Right Hit (42x42)_1: 2131593325696180439
-      Right Hit (42x42)_2: -143055266519111553
-      Right Hit (42x42)_3: 5146612676036680158
+      Blink (42x42)_0: 4965478120403269316
+      Blink (42x42)_1: 7853364175085887869
+      Blink (42x42)_2: 3654695632555541323
+      Blink (42x42)_3: -7771193783775295362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

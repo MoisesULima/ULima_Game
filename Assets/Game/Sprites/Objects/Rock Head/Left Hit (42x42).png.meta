@@ -1,23 +1,26 @@
 fileFormatVersion: 2
-guid: cf4eb9361d321834693bc5dcefbb5c4f
+guid: bb8f35504d0d42343b3cdb04faaa9d15
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png
+  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5954245752391450092
-    second: HitTop (22x22)_0
+      213: 1622322107330605865
+    second: Left Hit (42x42)_0
   - first:
-      213: -2073770108912678683
-    second: HitTop (22x22)_1
+      213: -4448182012383196264
+    second: Left Hit (42x42)_1
   - first:
-      213: 6325984980351382800
-    second: HitTop (22x22)_2
+      213: 3017925185602581589
+    second: Left Hit (42x42)_2
+  - first:
+      213: 4165727229729027890
+    second: Left Hit (42x42)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,17 +112,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HitTop (22x22)_0
+      name: Left Hit (42x42)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 22
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 348363501e5f14a498610bb1385e2a42
-      internalID: -5954245752391450092
+      spriteID: 2bd0bb000cde8e341a0d5f85270ad05c
+      internalID: 1622322107330605865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HitTop (22x22)_1
+      name: Left Hit (42x42)_1
       rect:
         serializedVersion: 2
-        x: 22
+        x: 42
         y: 0
-        width: 22
-        height: 22
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 625196c18c998514bb984cb5201e25f8
-      internalID: -2073770108912678683
+      spriteID: 13260c6f980312849a0b9320229872dd
+      internalID: -4448182012383196264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HitTop (22x22)_2
+      name: Left Hit (42x42)_2
       rect:
         serializedVersion: 2
-        x: 44
+        x: 84
         y: 0
-        width: 22
-        height: 22
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +188,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43b018db5d0522d4ba4c9f652857061f
-      internalID: 6325984980351382800
+      spriteID: 6a5cec343d4d1384bb9cbf55e4e72ee1
+      internalID: 3017925185602581589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Hit (42x42)_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8281d18cd5d76142b5de471d85c231d
+      internalID: 4165727229729027890
       vertices: []
       indices: 
       edges: []
@@ -192,9 +230,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HitTop (22x22)_0: -5954245752391450092
-      HitTop (22x22)_1: -2073770108912678683
-      HitTop (22x22)_2: 6325984980351382800
+      Left Hit (42x42)_0: 1622322107330605865
+      Left Hit (42x42)_1: -4448182012383196264
+      Left Hit (42x42)_2: 3017925185602581589
+      Left Hit (42x42)_3: 4165727229729027890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,23 +1,26 @@
 fileFormatVersion: 2
-guid: 09f4b8f50dab5b34495ea64fc80b3047
+guid: cbc3de93d8c073148bfa4e9b375fe7f7
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png
+  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Top Hit (42x42).png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6769692827079125451
-    second: Part 1 (22x22)_0
+      213: -5335270044437397966
+    second: Top Hit (42x42)_0
   - first:
-      213: 6851959776083884160
-    second: Part 1 (22x22)_1
+      213: 6330524061191845242
+    second: Top Hit (42x42)_1
   - first:
-      213: 7713393198726954842
-    second: Part 1 (22x22)_2
+      213: 1314965101185929502
+    second: Top Hit (42x42)_2
+  - first:
+      213: -8166746417374445508
+    second: Top Hit (42x42)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,17 +112,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Part 1 (22x22)_0
+      name: Top Hit (42x42)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 22
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ce795907c76b1e4298b647368f6202d
-      internalID: 6769692827079125451
+      spriteID: 9a73922fe7122bd4cb95958a5222a8b1
+      internalID: -5335270044437397966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Part 1 (22x22)_1
+      name: Top Hit (42x42)_1
       rect:
         serializedVersion: 2
-        x: 22
+        x: 42
         y: 0
-        width: 22
-        height: 22
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9c2d188e3404904f8aba6ea042f52f1
-      internalID: 6851959776083884160
+      spriteID: e50f88ef3c346fa49b296ffce5cf7f12
+      internalID: 6330524061191845242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Part 1 (22x22)_2
+      name: Top Hit (42x42)_2
       rect:
         serializedVersion: 2
-        x: 44
+        x: 84
         y: 0
-        width: 22
-        height: 22
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +188,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6b9e99ab0d47cb42afc16d3634ebfc1
-      internalID: 7713393198726954842
+      spriteID: b20bc6dea9f5ef44d91529df4ef3536f
+      internalID: 1314965101185929502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Hit (42x42)_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1842a7e63c0e7ea46a2e84afcf3954ce
+      internalID: -8166746417374445508
       vertices: []
       indices: 
       edges: []
@@ -192,9 +230,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Part 1 (22x22)_0: 6769692827079125451
-      Part 1 (22x22)_1: 6851959776083884160
-      Part 1 (22x22)_2: 7713393198726954842
+      Top Hit (42x42)_0: -5335270044437397966
+      Top Hit (42x42)_1: 6330524061191845242
+      Top Hit (42x42)_2: 1314965101185929502
+      Top Hit (42x42)_3: -8166746417374445508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

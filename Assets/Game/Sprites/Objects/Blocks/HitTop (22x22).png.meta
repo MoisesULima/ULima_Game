@@ -1,23 +1,23 @@
 fileFormatVersion: 2
-guid: 445c6df91e50ef74eb2589883bcc07d1
+guid: cf4eb9361d321834693bc5dcefbb5c4f
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 2 (22x22).png
+  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4775826516846400820
-    second: Part 2 (22x22)_0
+      213: -5954245752391450092
+    second: HitTop (22x22)_0
   - first:
-      213: -1523491039078323523
-    second: Part 2 (22x22)_1
+      213: -2073770108912678683
+    second: HitTop (22x22)_1
   - first:
-      213: 3468235227869191104
-    second: Part 2 (22x22)_2
+      213: 6325984980351382800
+    second: HitTop (22x22)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,11 +109,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Part 2 (22x22)_0
+      name: HitTop (22x22)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00b9e224f3c7ed4e8f457b43e4d4130
-      internalID: -4775826516846400820
+      spriteID: 348363501e5f14a498610bb1385e2a42
+      internalID: -5954245752391450092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Part 2 (22x22)_1
+      name: HitTop (22x22)_1
       rect:
         serializedVersion: 2
         x: 22
@@ -150,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3778664631f8f439e8855255e8ba27
-      internalID: -1523491039078323523
+      spriteID: 625196c18c998514bb984cb5201e25f8
+      internalID: -2073770108912678683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Part 2 (22x22)_2
+      name: HitTop (22x22)_2
       rect:
         serializedVersion: 2
         x: 44
@@ -172,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39a8d4be9fae18a4691d7866b22c1770
-      internalID: 3468235227869191104
+      spriteID: 43b018db5d0522d4ba4c9f652857061f
+      internalID: 6325984980351382800
       vertices: []
       indices: 
       edges: []
@@ -192,9 +205,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Part 2 (22x22)_0: -4775826516846400820
-      Part 2 (22x22)_1: -1523491039078323523
-      Part 2 (22x22)_2: 3468235227869191104
+      HitTop (22x22)_0: -5954245752391450092
+      HitTop (22x22)_1: -2073770108912678683
+      HitTop (22x22)_2: 6325984980351382800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
