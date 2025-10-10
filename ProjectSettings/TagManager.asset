@@ -10,6 +10,7 @@ TagManager:
   - Bullet
   - BulletContainer
   - DoorControl
+  - EnemyGrab
   layers:
   - Default
   - TransparentFX
