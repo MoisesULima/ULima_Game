@@ -14,11 +14,13 @@ public class PlayerMovePlatform : MonoBehaviour
     private InputAction jumpAction;
     private Rigidbody2D body;
     private SpriteRenderer sprite;
+    private Animator animator;
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -41,6 +43,8 @@ public class PlayerMovePlatform : MonoBehaviour
         // Para los juegos de plataforma, la velocidad en Y no se considera m�s que para el salto
         // pero al presionar los dos botones, la velocidad en "x" y "y" se normalizan x = 0.71 y y = 0.71
         int direction = move.x == 0 ? 0 : move.x > 0 ? 1 : -1;
+        // Se enviaría el valor de direction al Animator para que cambie la animación.
+        animator.SetInteger("direction", direction);
         body.linearVelocityX = direction * speed;
 
         if (direction != 0)
