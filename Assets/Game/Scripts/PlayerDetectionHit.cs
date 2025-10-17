@@ -2,12 +2,21 @@ using UnityEngine;
 
 public class PlayerDetectionHit : MonoBehaviour
 {
+    private int lives;
+    private Animator animator;
+
+    private void Awake()
+    {
+        lives = 5;
+        animator = GetComponent<Animator>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Si colisionamos con la zona de muerte "DeadZone" o colisionamos con un enemigo
         if (collision.gameObject.CompareTag("DeadZone") || collision.gameObject.CompareTag("Enemy"))
         {
-            SpawnPlayer();
+            DecreaseLife();
         }
     }
 
@@ -15,17 +24,33 @@ public class PlayerDetectionHit : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            SpawnPlayer();
+            DecreaseLife();
             // Desaparecemos la bala
             Destroy(collision.gameObject);
         }
     }
 
+    private void DecreaseLife()
+    {
+        // Reduce la vida en 1
+        lives--;
+        if (lives == 0)
+        {
+            // Spawneamos con nueva vida
+            lives = 5;
+            SpawnPlayer();
+        }
+        else
+        {
+            // Tenemos que activar un Hit
+            animator.SetTrigger("PlayerHit");
+        }
+    }
     private void SpawnPlayer()
     {
         // Ubicamos el SpawnPoint, eso significa que el spawnpoint debe tener su etiqueta (tag)
         GameObject spawn = GameObject.FindGameObjectWithTag("SpawnPoint");
-        // Mandamos al player a esa posición.
+        // Mandamos al player a esa posiciï¿½n.
         transform.localPosition = spawn.transform.localPosition;
     }
 }
