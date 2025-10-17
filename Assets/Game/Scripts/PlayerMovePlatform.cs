@@ -36,7 +36,7 @@ public class PlayerMovePlatform : MonoBehaviour
         // Acá detectamos si estamos en el piso.
         Collider2D colision = Physics2D.OverlapCircle(detector.position, sizeDetector, groundLayer);
         // Si existe colisión entonces estamos en el piso y podemos saltar (canJump)
-        bool canJump = colision != null;
+        bool isInGround = colision != null;
 
         Vector2 move = moveAction.ReadValue<Vector2>();
 
@@ -44,7 +44,6 @@ public class PlayerMovePlatform : MonoBehaviour
         // pero al presionar los dos botones, la velocidad en "x" y "y" se normalizan x = 0.71 y y = 0.71
         int direction = move.x == 0 ? 0 : move.x > 0 ? 1 : -1;
         // Se enviaría el valor de direction al Animator para que cambie la animación.
-        animator.SetInteger("direction", direction);
         body.linearVelocityX = direction * speed;
 
         if (direction != 0)
@@ -52,10 +51,14 @@ public class PlayerMovePlatform : MonoBehaviour
             sprite.flipX = direction < 0 ? true : false;
         }
 
-        if (jumpAction.WasPressedThisFrame() && canJump)
+        if (jumpAction.WasPressedThisFrame() && isInGround)
         {
             Debug.Log("El sapo debe saltar...");
             body.linearVelocityY = jumpImpulse;
         }
+        // Animator Parameters change.
+        animator.SetInteger("direction", direction);
+        animator.SetFloat("speedY", body.linearVelocityY);
+        animator.SetBool("isInAir", !isInGround);
     }
 }
