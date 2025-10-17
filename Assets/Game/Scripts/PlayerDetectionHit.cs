@@ -14,9 +14,13 @@ public class PlayerDetectionHit : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Si colisionamos con la zona de muerte "DeadZone" o colisionamos con un enemigo
-        if (collision.gameObject.CompareTag("DeadZone") || collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             DecreaseLife();
+        }
+        if ( collision.gameObject.CompareTag("DeadZone"))
+        {
+            SpawnPlayer();
         }
     }
 
@@ -36,18 +40,25 @@ public class PlayerDetectionHit : MonoBehaviour
         lives--;
         if (lives == 0)
         {
-            // Spawneamos con nueva vida
-            lives = 5;
+            // Spawneamos con nueva vida 
             SpawnPlayer();
         }
         else
         {
             // Tenemos que activar un Hit
             animator.SetTrigger("PlayerHit");
+            animator.SetBool("isHit", true);
         }
     }
+
+    public void FinishHit()
+    {
+        animator.SetBool("isHit", false);
+    }
+    
     private void SpawnPlayer()
     {
+        lives = 5;
         // Ubicamos el SpawnPoint, eso significa que el spawnpoint debe tener su etiqueta (tag)
         GameObject spawn = GameObject.FindGameObjectWithTag("SpawnPoint");
         // Mandamos al player a esa posici�n.
