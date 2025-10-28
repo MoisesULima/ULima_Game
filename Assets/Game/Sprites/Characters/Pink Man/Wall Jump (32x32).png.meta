@@ -1,33 +1,29 @@
 fileFormatVersion: 2
-guid: 5fd9f3ec1e3e0bc4d8e308e10012a36a
+guid: 603abb83490921841976d0f1b2045f23
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump
-    (32x32).png
+  assetPath: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9101230857065804138
-    second: Double Jump (32x32)_0
+      213: 3974224528455760076
+    second: Wall Jump (32x32)_0
   - first:
-      213: -6204479477933590408
-    second: Double Jump (32x32)_1
+      213: 403085039841989221
+    second: Wall Jump (32x32)_1
   - first:
-      213: 7040038629683462113
-    second: Double Jump (32x32)_2
+      213: -6018873884784744797
+    second: Wall Jump (32x32)_2
   - first:
-      213: 781615245368611544
-    second: Double Jump (32x32)_3
+      213: -674972067355074983
+    second: Wall Jump (32x32)_3
   - first:
-      213: -3939753913355333839
-    second: Double Jump (32x32)_4
-  - first:
-      213: 6301718139250434432
-    second: Double Jump (32x32)_5
+      213: 4366178942990776957
+    second: Wall Jump (32x32)_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,11 +115,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Double Jump (32x32)_0
+      name: Wall Jump (32x32)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc26ef155fcd716479d3d641d4bf610e
-      internalID: -9101230857065804138
+      spriteID: f3d23dab70d776640aba60ea9a9735a8
+      internalID: 3974224528455760076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Double Jump (32x32)_1
+      name: Wall Jump (32x32)_1
       rect:
         serializedVersion: 2
         x: 32
@@ -160,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63270021216da4a488905ef860348008
-      internalID: -6204479477933590408
+      spriteID: fadd2ea57ae354a41a17bd8897bdd5aa
+      internalID: 403085039841989221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Double Jump (32x32)_2
+      name: Wall Jump (32x32)_2
       rect:
         serializedVersion: 2
         x: 64
@@ -182,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67f09dbbeaf6da945af5b6db94d6011a
-      internalID: 7040038629683462113
+      spriteID: 0516a2f488c059645923015334f56405
+      internalID: -6018873884784744797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Double Jump (32x32)_3
+      name: Wall Jump (32x32)_3
       rect:
         serializedVersion: 2
         x: 96
@@ -204,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e6dde468ba0a8648b2aea51d2cf6d74
-      internalID: 781615245368611544
+      spriteID: 0ca694e0aa35eea489081c249c513715
+      internalID: -674972067355074983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Double Jump (32x32)_4
+      name: Wall Jump (32x32)_4
       rect:
         serializedVersion: 2
         x: 128
@@ -226,30 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe00bc1ac1825f347b51764de015d3b8
-      internalID: -3939753913355333839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Double Jump (32x32)_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc912b65259bb044da9cb45c1f15f74f
-      internalID: 6301718139250434432
+      spriteID: 417e34c5ae3ae5e4ab0013a2f0d52a69
+      internalID: 4366178942990776957
       vertices: []
       indices: 
       edges: []
@@ -268,12 +255,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Double Jump (32x32)_0: -9101230857065804138
-      Double Jump (32x32)_1: -6204479477933590408
-      Double Jump (32x32)_2: 7040038629683462113
-      Double Jump (32x32)_3: 781615245368611544
-      Double Jump (32x32)_4: -3939753913355333839
-      Double Jump (32x32)_5: 6301718139250434432
+      Wall Jump (32x32)_0: 3974224528455760076
+      Wall Jump (32x32)_1: 403085039841989221
+      Wall Jump (32x32)_2: -6018873884784744797
+      Wall Jump (32x32)_3: -674972067355074983
+      Wall Jump (32x32)_4: 4366178942990776957
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

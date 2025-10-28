@@ -17,8 +17,6 @@ public class BulletScript : MonoBehaviour
         // tipo kinemática
         body.linearVelocityX = speedX;
         body.linearVelocityY = speedY;
-
-        Debug.Log("La bala se despierta...");
     }
 
     public void StartBullet()
@@ -34,7 +32,6 @@ public class BulletScript : MonoBehaviour
         {
             // Destruimos el objeto
             Destroy(gameObject);
-            Debug.Log("Destruida la bala...");
         }
     }
 }
