@@ -26,6 +26,8 @@ public class Checkpoint : MonoBehaviour
             animator.SetTrigger("Activate");
             isActive = true;
             manager.ChangeActivation(id);
+            // Se está guardando de manera persistente (global), el número del checkpoint
+            PlayerPrefs.SetInt(Persistence.PREFS_CHECKPOINT_NUMBER, id);
         }
     }
 

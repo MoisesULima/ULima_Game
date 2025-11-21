@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDetectionHit : MonoBehaviour
 {
@@ -58,10 +59,13 @@ public class PlayerDetectionHit : MonoBehaviour
     
     private void SpawnPlayer()
     {
+        /*
         lives = 5;
         // Ubicamos el SpawnPoint, eso significa que el spawnpoint debe tener su etiqueta (tag)
         GameObject spawn = GameObject.FindGameObjectWithTag("SpawnPoint");
         // Mandamos al player a esa posici�n.
         transform.localPosition = spawn.transform.localPosition;
+        */
+        SceneManager.LoadScene("EjemploPlatformer");
     }
 }

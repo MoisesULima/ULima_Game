@@ -12,6 +12,14 @@ public class CheckpointManager : MonoBehaviour
         {
             checkpointList[i].Init(this, i);
         }
+
+        int idCheckpoint = PlayerPrefs.GetInt(Persistence.PREFS_CHECKPOINT_NUMBER);
+        if (idCheckpoint != -1)
+        {
+            Vector3 positionCheckpoint = checkpointList[idCheckpoint].transform.localPosition;
+            GameObject objPlayer = GameObject.FindGameObjectWithTag("Player");
+            objPlayer.transform.localPosition = positionCheckpoint;
+        }
     }
 
     public void ChangeActivation(int idActivated)
